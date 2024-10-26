@@ -13,7 +13,7 @@ body {
 
 @font-face {
             font-family: 'neuemachina';
-            src: url('fonts/neuemachinaultrabold.otf') format('opentype');
+            src: url(neuemachinaultrabold.otf') format('opentype');
         }
 
 
