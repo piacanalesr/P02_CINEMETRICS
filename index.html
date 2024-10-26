@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Cinemetrics</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="rueda">
+    <img src="rueda.png" alt="Rueda" class="ruedaa">
+</div>	
+
+
+<h1 class="título">CINEMETRICS</h1>
+   <a href="https://cinemetrics.site/?selection=Little%20Miss%20Sunshine," class="slogan">DONDE CADA <br> FRAME CUENTA </a>
+
+<div class="proyecto">
+	 <img src="grafico.png" class="grafico">
+
+    <div class="disciplina">
+    <p class="títulodisciplina"> VISUALIZACIÓN <br> DE DATOS E INFORMACIÓN </p>
+    <p class="textodisciplina"> Es una disciplina que busca  representar de forma visual datos e <b> información abstracta y compleja </b>  con el fin de que resulte más fácil de comprender y asimilar. Para esto se hace uso de visuales de diseño, conceptos de ciencias cognitivas y percepción, logrando un equilibrio entre forma y función.</p>
+    </div>
+
+    <p class="títuloquees">¿QUÉ ES CINEMETRICS?</p>
+    <p class="textoquees">Es una herramienta digital diseñada para analizar la <b>estructura visual y rítmica </b> de las películas a través de métricas cuantitativas, en particular el análisis de los tiempos de corte o edición.</p>
+    <div class="lineahoriz"></div>
+    <p class="objetivo">OBJETIVO</p>
+    <img src="diagramacine.png" class="diagramacine">
+    <p class="textoobjetivo">Aplicar métodos cuantitativos para entender la estructura narrativa y visual del cine, centrándose en el <b>análisis de los patrones de montaje </b> de una película, es decir, la duración de cada plano o corte y cómo estos afectan la percepción rítmica y narrativa de una película.
+    <br><br><br><br>
+    Al medir la longitud de los planos (duración de las tomas), el proyecto permite a los investigadores examinar la evolución del estilo cinematográfico a lo largo del tiempo, así como comparar diferentes directores, géneros o épocas.</p>
+    <video width="100%" loop autoplay muted preload>
+        <source src="comparacion.mp4" type="video/mp4">
+    </video>
+
+
+    <div class="creador">
+    <p class="titulofrederic">FREDERIC <br> BRODBECK</p>
+    <img src="frederic.png" alt="imgcreador" width="500px" class="imgcreador">
+    <p class="textofrederic">Diseñador y desarrollador nacido en Alemania, especializado en visualización de datos y medios digitales. Estudió diseño de comunicación en la Academia de Bellas Artes de Stuttgart, donde comenzó a interesarse por la intersección entre el arte, el cine, la tecnología y el análisis de datos.
+    <br><br><br><br>
+    Brodbeck dirige el estudio de diseño y desarrollo <b>´RULES RULES RULES’</b>, donde ha trabajado en proyectos de diseño interactivo, visualización de datos y desarrollo de software, siempre explorando formas creativas de representar la información.
+    </p>
+
+    <img src="ARTISTA.png" width="150px" class="artistaimg">
+    <img src="DISEÑADOR.png" width="200px" class="diseñadorimg">
+    <img src="INGENIERO.png" width="180px" class="ingenieroimg">
+
+    </div>
+
+</div>
+
+<div class="otrosproyectos">
+	<p class="titulootrosproyectos">OTROS PROYECTOS</p>
+	<div class="lineahoriz1"></div>
+		<div class="netherlands">
+			 <video width="40%" loop autoplay muted preload><source src="proyecto1.mp4" type="video/mp4" class="proyecto1"></video>
+			 <p class="p1titulo">Netherlands Film Academy</p>
+			 <p class="p1frase">Inmersivo - Exploración - Tridimensionalidad</p>
+
+
+		</div>
+
+		<div class="oneyear">
+			<video width="72%" loop autoplay muted preload><source src="proyecto2.mp4" type="video/mp4" class="proyecto2"></video>
+			<p class="p2titulo">One Year Life Strata</p>
+			<p class="p2frase">Estaros Geológicos digitales - Visualización Interactiva <br> - Modelo 3D de datos </p>
+
+		</div>
+</div>
+
+	<p class="fredericbuscaba">FREDERIC BUSCABA MEDIR <br>Y VISUALIZAR DATOS DE <br> PELÍCULAS PARA CREAR <br> ALGÚN TIPO DE <u>"HUELLA <br> DIGITAL"</u> PARA ELLAS. </p>
+
+<div class="image-container">
+    <div class="image-wrapper" id="carousel">
+        <div class="carousel-slide">
+            <img src="poster1.png" alt="Poster 1">
+        </div>
+        <div class="carousel-slide">
+            <img src="poster2.png" alt="Poster 2">
+        </div>
+        <div class="carousel-slide">
+            <img src="poster3.png" alt="Poster 3">
+        </div>
+        <div class="carousel-slide">
+            <img src="poster4.png" alt="Poster 4">
+        </div>
+        <div class="carousel-slide">
+            <img src="poster5.png" alt="Poster 5">
+        </div>
+        <div class="carousel-slide">
+            <img src="poster6.png" alt="Poster 6">
+        </div>
+        <div class="carousel-slide">
+            <img src="poster7.png" alt="Poster 7">
+        </div>
+        <div class="carousel-slide">
+            <img src="poster8.png" alt="Poster 8">
+        </div>
+    </div>
+</div>
+
+
+<script>
+    const carousel = document.getElementById('carousel');
+    const slides = document.querySelectorAll('.carousel-slide');
+    const totalSlides = slides.length;
+    for (let i = 0; i < 5; i++) {
+        const clone = slides[i].cloneNode(true);
+        carousel.appendChild(clone);
+    }
+
+    let index = 0;
+    const slideWidth = 100 / 5; 
+
+    function moveCarousel() {
+        index++;
+        carousel.style.transform = `translateX(${-index * slideWidth}%)`;
+        if (index >= totalSlides) {
+            setTimeout(() => {
+                carousel.style.transition = 'none'; 
+                index = 0;
+                carousel.style.transform = `translateX(0%)`;
+            }, 500); 
+        } else {
+            carousel.style.transition = 'transform 0.5s linear'; 
+        }
+    }
+    setInterval(moveCarousel, 2000);
+</script>
+
+	<p class="titulocomofunciona">¿CÓMO <br> FUNCIONA?</p>
+	<div class="lineahoriz2"></div>
+	
+<p class="comofunciona">Conversión del archivo <br> de video en datos: </p>
+<p class="entrada"> <b>Entrada </b> <br> El usuario selecciona la <br> película que desea analizar. </p>
+<p class="digitalizacion"><b>Digitalización: </b> Se convierte el archivo de video <br> de lapelícula en datos numéricos que incluyen <br> características visuales como color, duración <br>de planos y ritmo de edición. </p>
+
+<p class="tituloestructura">1. ESTRUCTURA</p>
+
+<img src="graficoiniciofin.png" class="graficoif">
+    
+<p class="parrafoestructura">El tamaño total es <br> proporcional a la duración <br> total de la película. <br> <br> <br> <br> Un segmento representa <br> la duración de 10 tomas <br> de la película. </p>
+
+
+
+<div class="gris">
+	<div class="color">
+		<p class="titulocolor">2.COLOR</p>
+		<div class="lineahoriz3"></div>
+		<p class="parrafocolor">Se analiza cada fotograma para <br> identificar la paleta de <b> colores <br> dominante,</b> representando el estilo <br> visual y la atmósfera. </p>
+		<div class="contenedor-flex">
+    <img src="analisiscolor.png" class="fotocolor">
+    <video width="40%" class="partido" loop autoplay muted preload>
+        <source src="soccermatch.mp4" type="video/mp4">
+    </video>
+</div>
+		<p class="bajadasoccer">Soccer match, Netherlands vs Spain (2010)</p>
+		
+	</div>
+			
+	<div class="movimiento">
+		<div class="movizq">
+			<div class="lineahoriz4"></div>
+			<video width="40%" loop autoplay muted preload><source src="blairwitchproject.mp4" type="video/mp4" class="videobwp">
+
+
+
+			</video>
+		</div>
+
+		<div class="movder">
+			<p class="titulomovimiento">3.MOVIMIENTO</p>
+			<p class="parrafomov">Se cuantifica el movimiento en los <br> fotogramas para mostrar el dinamismo. </p>
+			<video width="75%" loop autoplay muted preload ><source src="escenabwp.mp4" type="video/mp4"></video>
+			<p class="bajadabwp">The Blair Witch Project (2012)</p>
+
+		</div>
+	</div>
+
+<img src="levmanovich.png" class="diagramalev">
+
+<div class="proyectosimilares">
+	<div class="psizq">
+		<p class="titulops">PROYECTOS SIMILARES</p>
+		<div class="lineahoriz5"></div>
+		<img src="cinemaredux.png" class="cinemaredux">
+		<p class="textobarcode"><b> MOVIE BARCODE </b> <br> Este proyecto convierte cada fotograma de una película <br> en una fina barra de color, creando una especie de código <br> de barras que representa la paleta de colores de toda la <br> película. Es una forma visual única de analizar los cambios <br> de color a lo lagro de una obra. </p>
+	</div>
+
+	<div class="psder">
+			<p class="textoredux"><b>CINEMA REDUX by BRENDAN DAWES </b> <br> Este proyecto descompone películas en una cuadrícula de <br> fotogramas por minuto, permitiendo observar la <br> estructura visual y el ritmo de una película en su totalidad. <br> Es una representación compacta de todo el contenido <br> visual de una película. </p>
+			<img src="barcode.png" class="barcode">
+	</div>
+</div>
+
+
+<img src="diagramafinal.png" class="diagramafinal">
+
+
+
+
+
+
+
+
+</body>
+</html>

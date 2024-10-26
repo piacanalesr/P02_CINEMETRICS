@@ -1,0 +1,520 @@
+body {
+    background-color: #FFFA76;
+}
+
+.albert-sans-<uniquifier> {
+  font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+@font-face {
+            font-family: 'neuemachina';
+            src: url('fonts/neuemachinaultrabold.otf') format('opentype');
+        }
+
+
+
+.rueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -700px;
+  
+}
+
+.ruedaa {
+    width: 1200px; 
+    animation: girar 25s linear infinite; 
+}
+
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg); 
+    }
+    to {
+        transform: rotate(360deg); 
+    }
+}
+
+.título {
+font-family:neuemachina;
+float: center;
+display: flex;
+justify-content: center;
+font-size: 150px;
+  color:#2B2B2B;
+}
+
+.slogan {
+    font-family:neuemachina;
+    float: center;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: -7%;
+    padding-bottom: 5%;
+    color:#2B2B2B;
+}
+
+.proyecto {
+    background-color: #2B2B2B;
+    width: 100vw;
+}
+
+.grafico {
+    width: 500px;
+    padding: 40px;
+    margin-left: 13%;
+    margin-top: 3%;
+}
+
+.disciplina {
+    background-color: #FFFA76;
+    width: 380px;
+    height: 370px;
+    position: absolute;
+    left: 60%;
+    margin-top: -30%;
+    padding-left: 38px;
+}
+
+  
+.títulodisciplina {
+    font-family:neuemachina;
+    float: left;
+    display: flex;
+    justify-content: left;
+    width: 400px;
+    font-size: 35px;
+    text-align: left;
+    color: #2B2B2B;
+    margin-top: 9%;
+    line-height: 1;/* esto modifica el interlineado*/
+}
+
+
+.textodisciplina {
+    font-family: Albert sans;
+    color: #2B2B2B;
+    width: 330px;
+    text-align: justify;
+}
+
+.títuloquees {
+    font-family:neuemachina;
+    text-decoration: underline;
+    color: white;
+    display: flex;
+    font-size: 50px;
+    
+    text-align: left;
+    margin-left: 12%;
+}
+
+.textoquees{
+    font-family: Albert sans;
+    color: white;
+    width: 600px;
+    margin-left: 12%;
+    margin-top: -2%;
+    padding-bottom: 10%;
+    text-align: justify;
+    display: inline-block;
+}
+
+.lineahoriz{ 
+    background-color: #FFFA76;
+    width: 450px;
+    height: 3px;
+    position: absolute;
+    left: 58%;
+    margin-top: -248px;
+}
+
+.objetivo{
+    font-family:neuemachina;
+    font-size: 35px;
+    color: #FFFA76;
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -20%;
+}
+
+.diagramacine{
+    width: 400px;
+    position: absolute;
+    padding-top: 5%;
+    margin-left: -30%;
+}
+
+.textoobjetivo{
+    font-family: Albert sans;
+    color: white;
+    justify-content: left;
+
+    width: 420px;
+    margin-left: 60%;
+    margin-top: -15%;
+    padding-bottom: 6%;
+}
+
+
+.creador{
+    padding: 5%;
+}
+
+.titulofrederic{
+    font-family:neuemachina;
+    color: white;
+    display: flex;
+    font-size: 80px;
+    
+    text-align: right;
+    margin-left: 4%;
+    margin-top: -1%;
+    line-height: 1;
+}
+
+.imgcreador{
+    display: flex;
+    margin-left: 55%;
+    margin-top: -17%;
+    padding-bottom: 3%;
+}
+
+.textofrederic{
+    font-family: Albert sans;
+    color: white;
+    text-align: justify;
+
+    width: 420px;
+    margin-left: 6%;
+    margin-top: -28%;
+}
+
+.artistaimg{
+    position: absolute;
+    margin-left: 77%;
+    margin-top: -9%;
+}
+
+.diseñadorimg{
+    position: absolute;
+    margin-left: 77%;
+    margin-top: -5.5%;
+}
+
+.ingenieroimg{
+    position: absolute;
+    margin-left: 77%;
+    margin-top: -2%;
+}
+
+.otrosproyectos {
+	background-color: #2B2B2B;
+	width: 100vw;
+	height: 700px;
+	margin-top: -40px;
+}
+
+.titulootrosproyectos {
+	font-family: neuemachina;
+	font-size: 40px;
+	color:#FFFA76;
+	padding-top: 10%;
+	margin-left: 10%;
+}
+
+.lineahoriz1 {
+ 	background-color: #FFFA76;
+    width: 720px;
+    height: 3px;
+    position: absolute;
+    left: 40%;
+    margin-top: -4%;
+}
+
+.netherlands {
+	margin-left: 10%;
+}
+
+.p1titulo {
+	font-family: Albert sans;
+	color:white;
+	font-size: 25px;
+}
+
+.p1frase {
+	font-family: Albert sans;
+	color:white;
+	font-size: 18px;
+	margin-top: -20px;
+}
+
+.oneyear {
+	margin-left: 50%;
+	margin-top: -27.5%;
+}
+
+.p2titulo {
+	font-family: Albert sans;
+	font-size: 25px;
+	color:white;
+}
+
+.p2frase {
+	font-family: Albert sans;
+	font-size: 18px; 
+	color:white;
+	margin-top: -20px;
+}
+
+.amarillo {
+
+}
+
+.fredericbuscaba {
+	font-family: neuemachina;
+	font-size: 40px;
+	margin-left: 10%;
+	color:#2B2B2B;
+	
+}
+
+ .image-container {
+            width: 100%; 
+            overflow: hidden;
+            margin: auto;
+            position: relative;
+        }
+
+        .image-wrapper {
+            display: flex;
+            width: 100%;
+            transition: transform 0.5s linear; 
+        }
+
+        .carousel-slide {
+            min-width: 20%; 
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        .carousel-slide img {
+            width: 100%;
+            display: block;
+            border-radius: 10px;
+        }
+
+.titulocomofunciona {
+	font-family: neuemachina;
+	font-size: 80px;
+	color:#2B2B2B;
+	margin-left: 10%;
+}
+
+.lineahoriz2 {
+	background-color: #2B2B2B;
+    width: 1150px;
+    height: 3px;
+    position: absolute;
+    left: 10%;
+    margin-top: -4%;
+}
+
+.comofunciona {
+	font-family: Albert sans;
+	font-size: 18px; 
+	margin-left: 10%;
+}
+
+.entrada {
+	font-family: Albert sans;
+	font-size: 18px; 
+	margin-left: 35%;
+	margin-top: -4.5%;
+}
+
+.digitalizacion {
+	font-family: Albert sans;
+	font-size: 18px; 
+	margin-left: 60%;
+	margin-top: -6%;
+}
+
+.graficoif {
+	width: 700px;
+	margin-left: 10%;
+	margin-top: -5%;
+}
+
+.tituloestructura {
+	font-family: neuemachina;
+	font-size: 40px;
+	color: #2B2B2B;
+	margin-left: 60%;
+	margin-top: 5%;
+}
+
+.parrafoestructura {
+	font-family: Albert sans;
+	font-size: 18px; 
+	margin-left: 61%;
+	margin-top: -30%;
+}
+
+.gris {
+	width: 100vw;
+	height: 1600px;
+	background-color: #D7D7D7;
+	margin-top: 20%;
+}
+
+.titulocolor {
+	font-family: neuemachina;
+	font-size: 40px;
+	margin-left: 10%;
+	padding-top: 10%;
+	color:#2B2B2B;
+}
+
+.lineahoriz3 {
+	background-color: #2B2B2B;
+    width: 940px;
+    height: 3px;
+    position: absolute;
+    left: 25%;
+    margin-top: -4%;
+}
+
+.parrafocolor {
+	font-family: Albert sans;
+	font-size: 18px;
+	margin-left: 10%;
+}
+
+.fotocolor {
+	width: 500px;
+	margin-left: 10%;
+}
+
+.bajadasoccer {
+	font-family: Albert sans;
+	font-size: 15px; 
+	margin-left: 10%;
+}
+
+.partido {
+	width: 500px;
+	left: 300px;
+	margin-left: 150px;
+	margin-top: -10%;
+}
+
+.movizq  {
+	margin-left: 10%;
+	margin-top: 15%;
+}
+
+
+.lineahoriz4 {
+	background-color: #2B2B2B;
+    width: 700px;
+    height: 3px;
+    position: absolute;
+    margin-top: -5%;
+}
+.movder {
+	margin-left: 60%;
+	margin-top: -45%;
+}
+
+
+.titulomovimiento {
+	font-family: neuemachina;
+	font-size: 40px;
+	color:#2B2B2B;
+}
+
+.parrafomov {
+	font-family: Albert sans;
+	font-size: 18px;
+}
+
+.bajadabwp {
+	font-family: Albert sans;
+	font-size: 15px;
+}
+
+.diagramalev {
+	width: 100vw;
+	margin-top: 10%;
+}
+
+.proyectosimilares {
+	width: 100vw;
+	height: 800px;
+	background-color: #2B2B2B;
+}
+
+
+.psizq {
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+.titulops {
+	font-family: neuemachina;
+	font-size: 40px; 
+	color:#FFFA76;
+	padding-top: 5%;
+
+}
+
+.lineahoriz5 {
+	background-color: #FFFA76;
+    width: 620px;
+    height: 3px;
+    position: absolute;
+    margin-top: -4.5%;
+    margin-left: 37%
+}
+
+.cinemaredux {
+	width: 600px;
+}
+
+.textobarcode {
+	color:white;
+	font-family: Albert sans;
+	font-size: 15px;
+	margin-top: 10%;
+}
+
+.psder {
+	margin-left: 55%;
+	margin-top: -32%;
+}
+
+.textoredux {
+	color:white;
+	font-family: Albert sans;
+	font-size: 15px;
+}
+
+.barcode {
+	width: 500px;
+	margin-top: 20%;
+}
+
+.diagramafinal {
+	width: 100vw;
+}
+
